@@ -31,17 +31,19 @@ Partial Class Form1
         'lblMensaje
         '
         Me.lblMensaje.AutoSize = True
-        Me.lblMensaje.Location = New System.Drawing.Point(104, 74)
+        Me.lblMensaje.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMensaje.Location = New System.Drawing.Point(90, 80)
         Me.lblMensaje.Name = "lblMensaje"
-        Me.lblMensaje.Size = New System.Drawing.Size(47, 13)
+        Me.lblMensaje.Size = New System.Drawing.Size(89, 24)
         Me.lblMensaje.TabIndex = 0
         Me.lblMensaje.Text = "Mensaje"
         '
         'btnMensaje
         '
-        Me.btnMensaje.Location = New System.Drawing.Point(107, 153)
+        Me.btnMensaje.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMensaje.Location = New System.Drawing.Point(94, 130)
         Me.btnMensaje.Name = "btnMensaje"
-        Me.btnMensaje.Size = New System.Drawing.Size(72, 30)
+        Me.btnMensaje.Size = New System.Drawing.Size(85, 27)
         Me.btnMensaje.TabIndex = 1
         Me.btnMensaje.Text = "Cambiar mensaje"
         Me.btnMensaje.UseVisualStyleBackColor = True
