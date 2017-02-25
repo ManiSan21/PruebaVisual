@@ -9,6 +9,6 @@
     End Sub
 
     Private Sub btnCambiar2_Click(sender As Object, e As EventArgs) Handles btnCambiar2.Click
-        lblMensaje2.Text = "Hola Tío, ya no vayas :v"
+        lblMensaje2.Text = "Hola Tío, ya no vayas :v x2"
     End Sub
 End Class
